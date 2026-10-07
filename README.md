@@ -24,6 +24,7 @@
 - [Service Management](#%EF%B8%8F-service-management)
 - [Troubleshooting & FAQ](#-troubleshooting--faq)
 - [Uninstallation](#-uninstallation)
+- [Dell Linux Ecosystem](#-dell-linux-ecosystem)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -228,6 +229,14 @@ cd dell-gmode
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
+
+---
+
+## 🌐 Dell Linux Ecosystem
+
+Supercharge your Dell gaming laptop on Linux with companion tools from this suite:
+
+* 🌈 **[dell-g15-rgb](https://github.com/moalmatry/dell-g15-rgb)** — Native Linux driver, CLI, and GTK 3 GUI for Dell G15 & Alienware laptops to control AlienFX 4-Zone RGB keyboard lighting, custom hardware effects, brightness, and permanently fix the "stuck on red" backlight issue.
 
 ---
 
