@@ -1,0 +1,30 @@
+[project]
+name = "dell-gmode"
+version = "0.1.0"
+description = "Dell G15 Fn+F9 G-Mode (Game Shift) hardware toggle daemon and CLI for Linux"
+authors = [
+    { name = "moalmatry" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["dell", "g15", "gmode", "gameshift", "performance", "linux", "alienware", "wmax"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Hardware",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/moalmatry/dell-gmode"
+
+[project.scripts]
+dell-gmode = "dell_gmode.cli:main"
+
+[tool.poetry]
+packages = [{ include = "dell_gmode", from = "src" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

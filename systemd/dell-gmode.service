@@ -1,0 +1,13 @@
+[Unit]
+Description=Dell G15 Fn+F9 G-Mode Performance Toggle Service
+Documentation=https://github.com/moalmatry/dell-gmode
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dell-gmode daemon
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
