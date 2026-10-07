@@ -1,23 +1,49 @@
 [project]
 name = "dell-gmode"
 version = "0.1.0"
-description = "Dell G15 Fn+F9 G-Mode (Game Shift) hardware toggle daemon and CLI for Linux"
+description = "Native Linux background daemon and CLI utility to enable the Dell G15 / G16 Fn+F9 Game Shift (G-Mode) key, thermal fan boost, and performance scaling."
 authors = [
     { name = "moalmatry" }
 ]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
-keywords = ["dell", "g15", "gmode", "gameshift", "performance", "linux", "alienware", "wmax"]
+keywords = [
+    "dell",
+    "dell-g15",
+    "dell-g16",
+    "game-shift",
+    "g-mode",
+    "gmode",
+    "alienware",
+    "alienware-wmax",
+    "fan-control",
+    "linux",
+    "acpi",
+    "acpi-call",
+    "platform-profile",
+    "gaming-laptop",
+    "hardware",
+]
 classifiers = [
     "Environment :: Console",
     "Operating System :: POSIX :: Linux",
     "Topic :: System :: Hardware",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Topic :: System :: Power (UPS)",
+    "Topic :: System :: Systems Administration",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/moalmatry/dell-gmode"
 Repository = "https://github.com/moalmatry/dell-gmode"
+Issues = "https://github.com/moalmatry/dell-gmode/issues"
 
 [project.scripts]
 dell-gmode = "dell_gmode.cli:main"
