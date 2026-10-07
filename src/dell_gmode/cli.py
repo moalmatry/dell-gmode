@@ -16,7 +16,7 @@ def main():
     subparsers.add_parser("toggle", help="Toggle between Balanced and Performance (G-Mode)")
 
     # performance
-    subparsers.add_parser("performance", help="Engage High Performance G-Mode (Fans 100%)")
+    subparsers.add_parser("performance", help="Engage High Performance G-Mode (Maximum Fans)")
 
     # balanced
     subparsers.add_parser("balanced", help="Restore normal Balanced Mode (Quiet Fans)")
